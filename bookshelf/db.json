@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "id": "1687205007051",
+      "name": "Mehmet Çimen",
+      "author": "asdasd",
+      "publisher": "asdasd",
+      "isbn": "1111",
+      "price": 1111,
+      "categoryId": "1687204977220"
+    },
+    {
+      "id": "1687205029773",
+      "name": "şiir",
+      "author": "qweqwe",
+      "publisher": "asdasd",
+      "isbn": "333333",
+      "price": 33333,
+      "categoryId": "1687204958077"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1687204958077",
+      "name": "Roman"
+    },
+    {
+      "id": "1687204977220",
+      "name": "Şiir"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+Bookshelf App
+
+Dependencies :
+    - Json server
+    - axios
+    - redux (state management)(redux,react-redux)
+    -react router dom
+
+İş sırası:
+
+    - veri yapısı ve ilişkilerin kurulması.(json-server ın yapılandırılması)
+    - global bir axios dosyası oluşturma
+    -redux yapısı oluşturma (temel seviyede, daha sonra geliştirilebilir)
+        a. store a taşınacak statelere karar vermek.
+
+    -Router yapısını kur.
+    -UI kütüphanesi olarak Bootstrap kullanılacak.
+    
+    -Güncelleme İşlemi
+        a. Hangi kitabın güncelleme butonuna tıklanırsa o kitep ile ilgili ayırt edici bir bilgi sayfaya taşınır(url ile)
+        b.URL içerisinden kitaba ait bilgi okunur (constructor kısmında)
+        c. URL den okunan bilgiye göre ilgili kitap bilgisi getirilir
+        (storda bulunun booksState kullanılabilir)
+        d. ilgili kitapbulunduktan sonra form için başlangıç state i olarak atanır.
+        e. Ardından form kontrol edilir.(onsubmit)
+        f. validation sonrasında kitabın güncellenmesi gerektiğine emin olduktan sonra, önce APi call ile (put)
+        kitabın server tarafında güncellendiğinden emin olmalıyız.
+        g. Emin olduktan sonra client tarafta storumuzu güncelleyebiliriz.
+        (redux işleyişi)
+        h. dispach işleminden sonra anasayfaya yönlendir (usenavigate)
